@@ -347,9 +347,11 @@ import turtle
 		tur.left(115)
 		tur.forward(50)
 		tur.clear()
+		tur.penup()
 		
 	    elif letter == "W":
 		tur.setheading(0)
+		tur.pendown()
 		tur.right(90)
 		tur.forward(50)
 		tur.left(150)
@@ -364,6 +366,7 @@ import turtle
 		
 	    elif letter == "X":
 		tur.setheading(0)
+		tur.pendown()
 	    	tur.right(45)
 	    	tur.forward(100)
 	    	tur.backward(50)
@@ -384,9 +387,11 @@ import turtle
 		tur.right(150)
 		tur.forward(45)
 		tur.clear()
+		tur.penup()
 		
 	    elif letter == "Z":
 		tur.setheading(0)
+		tur.pendown()
 		tur.forward(100)
 	    	tur.backward(100)
 	   	tur.right(51)
